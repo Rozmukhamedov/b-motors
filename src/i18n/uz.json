@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "corporate": "Kompaniya haqida",
+    "products": "Mahsulotlar",
+    "media": "Media",
+    "tates": "TATES",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "line1": "KELAJAK",
+    "line2": "DEHQONCHILIGI",
+    "line3": "UCHUN TAYYOR BO'LING"
+  },
+  "products": {
+    "title": "HOSILDOR YERLAR KABI BUYUK",
+    "ekimGroup": "Ekish guruhi",
+    "toprakGroup": "Tuproq ishlash guruhi"
+  },
+  "power": {
+    "techTitle": "ENG SO'NGGI TEXNOLOGIYA",
+    "techSubtitle": "ISHLAB CHIQARISH USULLARI",
+    "pioneerTitle": "TURKIYADA",
+    "pioneerSubtitle": "DEHQONCHILIKNING PESHQADAMI",
+    "futureTitle": "KELAJAK UCHUN",
+    "futureSubtitle": "ISHLAYMIZ"
+  },
+  "time": {
+    "title": "UZOQ MUDDATLI MASHINALAR",
+    "desc": "Biz qishloq xo'jaligi mashinalari va uskunalarini foydalanuvchilarning ehtiyojlarini hisobga olib loyihalaymiz va kelajak dehqonchiligi uchun uzoq muddatli yechimlar taklif etamiz."
+  },
+  "export": {
+    "title": "HAR BIR DALADA BIZNING NOMIMIZ BOR",
+    "desc": "7 qit'adagi 100 dan ortiq mamlakatga eksport qilib, TARIMÖZ sifatini butun dunyoga tanitamiz. Orzularimiz katta, yutuqlarimiz ham shunday."
+  },
+  "team": {
+    "title": "SIZ UCHUN BIRGAMIZ",
+    "desc": "Bizda iste'molchi huquqlariga doimo hurmatli, rivojlanayotgan texnologiyani kuzatuvchi, jamoaviy ruhga ega va yerga ishonuvchi jamoa bor."
+  },
+  "future": {
+    "title": "YANGI AVLOD DEHQONCHILIK",
+    "desc": "Boy tarixiymizdan olgan kuch va kelajak qarashimiz bilan aqlli qishloq xo'jaligi mashinalarini ishlab chiqarish uchun hamkorligimizni kengaytirmoqdamiz. Barqaror dehqonchilik uchun qishloq xo'jaligi sun'iy intellekt texnologiyalarini joriy etmoqdamiz."
+  },
+  "footer": {
+    "factory": "ZAVOD",
+    "address": "Konya Tashkil etilgan Sanoat Hududi, Ihsandede ko'chasi, 12-ko'cha №18 Konya/TURKIYA",
+    "followUs": "BIZNI KUZATING",
+    "followDesc": "Tarımöz va mashinalarimiz haqida xabardor bo'lish uchun bizni kuzating.",
+    "rights": "© 2025 TARIMÖZ | Barcha huquqlar himoyalangan."
+  },
+  "kurumsal": {
+    "bannerLine1": "URUG' TUPROQQA TUSHIB",
+    "bannerLine2": "UNIB CHIQQANDA HAMMA NARSA BOSHLANDI",
+    "aboutText1": "Yomg'irning tuproq bilan do'stligi, birinchi maysalar paydo bo'lganda insonni tuproqqa bog'ladi. Avval yomg'irni kuzatdi, keyin hosildor yerlarni.",
+    "aboutText2": "Biz, Tarımöz oilasi, 1977 yildan beri ekish mashinasi bilan boshlangan sayohat va mahsulot xilma-xilligini har kuni oshirib, Tarımöz brendi bilan fidoyilik va ishonch bilan qishloq xo'jaligi mashinalari va uskunalarini 35 dan ortiq mamlakatga muvaffaqiyatli eksport qilish faxrida yashaymiz.",
+    "chairman": "Hilmi ARSLAN",
+    "chairmanTitle": "Boshqaruv kengashi raisi",
+    "sqm": "kvadrat metr",
+    "factoryDesc": "Quyida ko'rayotgan hudud tashqaridan shunchaki zavod ko'rinishi mumkin, lekin bu mamlakatimiz va dunyoda dehqonchilikni rivojlantirish maqsadida tunab-tong otkazgan ikkinchi uyimizdir.",
+    "timeTravel": "VAQT SAYOHATI",
+    "mission": "MISSIYA",
+    "missionText": "Kompaniyaning har bir bosqichida doimiy rivojlanib, mahsulot turlarini ko'paytirish. Bilim va texnologiyadan foydalanib, doimo eng sifatli xizmat ko'rsatish.",
+    "vision": "VIZION",
+    "visionText": "Turk brendi sifatida Turkiya va dunyoda ishonchlilik va sifatimiz bilan namunali muassasa bo'lish."
+  },
+  "timeline": {
+    "1977": { "title": "DEHQONCHILIKNING MOHIYATI", "desc": "Dehqonchilikning mohiyati bizni ilhomlantirdi, shuning uchun biz bu qadriyat nomini oldik. 1977 yilda birinchi qadamimizni tashdik." },
+    "1985": { "title": "JOYLASHISH", "desc": "1985 yilda Konyada 3000 m² hajmdagi birinchi korxonamizni yaratdik." },
+    "1994": { "title": "TARQALISH", "desc": "1994 yilda birinchi eksportimizni amalga oshirdik va cheksiz sayohatni boshladik." },
+    "2008": { "title": "O'SISH", "desc": "Bugungi kunda ham faol foydalanayotgan 50 000 m² yangi zavodimizga ko'chdik." },
+    "2009": { "title": "ISHLASH", "desc": "2009 yilda tuproq ishlash mashinalarini ishlab chiqarish boshlandi." },
+    "2010": { "title": "MEXANIZATSIYA", "desc": "2010 yilda robot payvandlash tizimlarini o'rnatdik." },
+    "2016": { "title": "DUNYO DEVI", "desc": "2016 yilga kelib eksport 100 mamlakatga yetdi." },
+    "2023": { "title": "SUN'IY INTELLEKT", "desc": "2023 yildan boshlab Tarımöz industiya 4.0 va sun'iy intellektga qadam qo'ydi." }
+  },
+  "urunler": {
+    "toprakGroup": "Tuproq ishlash guruhi",
+    "ekimGroup": "Ekish guruhi"
+  },
+  "medya": {
+    "bannerLine1": "FOTOSURATLAR, VIDEO",
+    "bannerLine2": "VA KATALOGLAR",
+    "photos": "FOTOSURATLAR",
+    "catalog": "KATALOG"
+  },
+  "tatesPage": {
+    "title": "TATES,",
+    "subtitle": "Yangi avlod dehqonchilik",
+    "systemName": "TARIMÖZ AQLLI DEHQONCHILIK USKUNALARI TIZIMLARI",
+    "p1": "Raqamlashtirish davrida dehqonchilik an'anaviy usullardan chiqib, avtonom uskunalar va sun'iy intellekt yordamidagi texnologiyalar bilan yangi davrga kirmoqda. Biz TATES texnologiyalari bilan barqaror dehqonchilikning raqamli transformatsiyasiga peshqadamlik qilishdan faxrlanamiz.",
+    "p2": "\"Tuproqqa qadr qo'y, kelajakni shakllantir\" shiori bilan aqlli texnologiyalarni dalalarimizga taklif etamiz!",
+    "p3": "Boy tarixiymizdan olgan kuch bilan dehqonlarning samaradorligini oshiradigan va tabiat bilan uyg'un yechimlar taklif etuvchi aqlli qishloq xo'jaligi mashinalariga e'tibor qaratamiz.",
+    "p4": "Dehqonlarga arzonroq narxda yuqori hosildorlik ta'minlovchi avtonom tizimlar, aniq dehqonchilik va ma'lumotlarga asoslangan yechimlar taklif etamiz. TATES bilan dehqonchilikning kelajagini birga quramiz!"
+  },
+  "iletisim": {
+    "bannerTitle": "BIZ BILAN BOG'LANING",
+    "breadcrumb": "Aloqa ma'lumotlari"
+  },
+  "breadcrumbs": {
+    "home": "Bosh sahifa",
+    "corporate": "Kompaniya haqida",
+    "media": "Media",
+    "tates": "TATES",
+    "contact": "Aloqa"
+  }
+}
