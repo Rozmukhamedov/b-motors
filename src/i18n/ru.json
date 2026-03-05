@@ -4,7 +4,8 @@
     "corporate": "О компании",
     "products": "Продукция",
     "media": "Медиа",
-    "tates": "TATES",
+    "partsService": "Запчасти и сервис",
+    "team": "Команда",
     "contact": "Контакты"
   },
   "hero": {
@@ -94,13 +95,33 @@
   },
   "iletisim": {
     "bannerTitle": "СВЯЖИТЕСЬ С НАМИ",
-    "breadcrumb": "Контактная информация"
+    "breadcrumb": "Контактная информация",
+    "formTitle": "НАПИШИТЕ НАМ",
+    "formDesc": "Заполните форму и мы свяжемся с вами в ближайшее время",
+    "name": "Имя",
+    "namePlaceholder": "Ваше имя",
+    "email": "Email",
+    "emailPlaceholder": "Ваш email",
+    "phone": "Телефон",
+    "phonePlaceholder": "Ваш номер телефона",
+    "subject": "Тема",
+    "subjectPlaceholder": "Тема сообщения",
+    "message": "Сообщение",
+    "messagePlaceholder": "Ваше сообщение...",
+    "send": "ОТПРАВИТЬ",
+    "infoTitle": "КОНТАКТНАЯ ИНФОРМАЦИЯ",
+    "addressLabel": "Адрес",
+    "phoneLabel": "Телефон",
+    "emailLabel": "Электронная почта",
+    "workHours": "Режим работы",
+    "workHoursValue": "Пн–Пт: 09:00–18:00"
   },
   "breadcrumbs": {
     "home": "Главная",
     "corporate": "О компании",
     "media": "Медиа",
-    "tates": "TATES",
+    "partsService": "Запчасти и сервис",
+    "team": "Команда",
     "contact": "Контакты"
   }
 }

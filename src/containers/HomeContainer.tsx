@@ -4,6 +4,7 @@ import PowerSection from "@/components/PowerSection";
 import TimeSection from "@/components/TimeSection";
 import ExportSection from "@/components/ExportSection";
 import TeamSection from "@/components/TeamSection";
+import ServiceSection from "@/components/ServiceSection";
 import FutureSection from "@/components/FutureSection";
 
 const HomeContainer = () => {
@@ -15,6 +16,7 @@ const HomeContainer = () => {
       <TimeSection />
       <ExportSection />
       <TeamSection />
+      <ServiceSection />
       <FutureSection />
     </>
   );

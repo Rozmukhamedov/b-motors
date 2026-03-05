@@ -7,7 +7,8 @@ import Index from "./pages/Index";
 import KurumsalPage from "./pages/KurumsalPage";
 import UrunlerPage from "./pages/UrunlerPage";
 import MedyaPage from "./pages/MedyaPage";
-import TatesPage from "./pages/TatesPage";
+import PartsServicePage from "./pages/PartsServicePage";
+import TeamPage from "./pages/TeamPage";
 import IletisimPage from "./pages/IletisimPage";
 import NotFound from "./pages/NotFound";
 
@@ -21,11 +22,12 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/kurumsal" element={<KurumsalPage />} />
-          <Route path="/urunler" element={<UrunlerPage />} />
-          <Route path="/medya" element={<MedyaPage />} />
-          <Route path="/tates" element={<TatesPage />} />
-          <Route path="/iletisim" element={<IletisimPage />} />
+          <Route path="/about" element={<KurumsalPage />} />
+          <Route path="/products" element={<UrunlerPage />} />
+          <Route path="/media" element={<MedyaPage />} />
+          <Route path="/parts-service" element={<PartsServicePage />} />
+          <Route path="/team" element={<TeamPage />} />
+          <Route path="/contact" element={<IletisimPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

@@ -4,7 +4,8 @@
     "corporate": "Kompaniya haqida",
     "products": "Mahsulotlar",
     "media": "Media",
-    "tates": "TATES",
+    "partsService": "Ehtiyot qismlar va xizmat",
+    "team": "Jamoa",
     "contact": "Aloqa"
   },
   "hero": {
@@ -94,13 +95,33 @@
   },
   "iletisim": {
     "bannerTitle": "BIZ BILAN BOG'LANING",
-    "breadcrumb": "Aloqa ma'lumotlari"
+    "breadcrumb": "Aloqa ma'lumotlari",
+    "formTitle": "BIZGA YOZING",
+    "formDesc": "Formani to'ldiring va biz siz bilan tez orada bog'lanamiz",
+    "name": "Ism",
+    "namePlaceholder": "Ismingiz",
+    "email": "Email",
+    "emailPlaceholder": "Email manzilingiz",
+    "phone": "Telefon",
+    "phonePlaceholder": "Telefon raqamingiz",
+    "subject": "Mavzu",
+    "subjectPlaceholder": "Xabar mavzusi",
+    "message": "Xabar",
+    "messagePlaceholder": "Xabaringiz...",
+    "send": "YUBORISH",
+    "infoTitle": "ALOQA MA'LUMOTLARI",
+    "addressLabel": "Manzil",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Elektron pochta",
+    "workHours": "Ish vaqti",
+    "workHoursValue": "Du–Ju: 09:00–18:00"
   },
   "breadcrumbs": {
     "home": "Bosh sahifa",
     "corporate": "Kompaniya haqida",
     "media": "Media",
-    "tates": "TATES",
+    "partsService": "Ehtiyot qismlar va xizmat",
+    "team": "Jamoa",
     "contact": "Aloqa"
   }
 }

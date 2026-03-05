@@ -12,13 +12,13 @@ const ProductsSection = () => {
           {t("products.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Link to="/urunler" className="group relative overflow-hidden block">
+          <Link to="/products" className="group relative overflow-hidden block">
             <img src={ekimImg} alt={t("products.ekimGroup")} className="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-500 group-hover:scale-105" />
             <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/40 transition-colors flex items-end p-6">
               <span className="text-primary-foreground text-xl font-bold">{t("products.ekimGroup")}</span>
             </div>
           </Link>
-          <Link to="/urunler" className="group relative overflow-hidden block">
+          <Link to="/products" className="group relative overflow-hidden block">
             <img src={toprakImg} alt={t("products.toprakGroup")} className="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-500 group-hover:scale-105" />
             <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/40 transition-colors flex items-end p-6">
               <span className="text-primary-foreground text-xl font-bold">{t("products.toprakGroup")}</span>

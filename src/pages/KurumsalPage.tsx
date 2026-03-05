@@ -20,7 +20,7 @@ const KurumsalPage = () => {
         titleLine2={t("kurumsal.bannerLine2")}
         breadcrumbs={[
           { label: t("breadcrumbs.home"), path: "/" },
-          { label: t("breadcrumbs.corporate"), path: "/kurumsal" },
+          { label: t("breadcrumbs.corporate"), path: "/about" },
         ]}
       />
 

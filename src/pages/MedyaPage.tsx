@@ -25,42 +25,46 @@ const MedyaPage = () => {
         titleLine2={t("medya.bannerLine2")}
         breadcrumbs={[
           { label: t("breadcrumbs.home"), path: "/" },
-          { label: t("breadcrumbs.media"), path: "/medya" },
+          { label: t("breadcrumbs.media"), path: "/media" },
         ]}
       />
 
       <section className="py-16 md:py-24 bg-background relative overflow-hidden">
-        <div className="absolute top-0 left-4 section-label select-none pointer-events-none">PHOTO</div>
+        <div className="absolute top-0 left-4 section-label select-none pointer-events-none">
+          PHOTO
+        </div>
         <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-2xl font-bold text-foreground mb-10">{t("medya.photos")}</h2>
+          <h2 className="text-2xl font-bold text-foreground mb-10">
+            {t("medya.photos")}
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {photos.map((photo, i) => (
-              <div key={i} className="cursor-pointer overflow-hidden group" onClick={() => setSelectedImg(photo)}>
-                <img src={photo} alt={`${t("medya.photos")} ${i + 1}`} className="w-full h-[200px] md:h-[280px] object-cover transition-transform duration-500 group-hover:scale-105" />
+              <div
+                key={i}
+                className="cursor-pointer overflow-hidden group"
+                onClick={() => setSelectedImg(photo)}
+              >
+                <img
+                  src={photo}
+                  alt={`${t("medya.photos")} ${i + 1}`}
+                  className="w-full h-[200px] md:h-[280px] object-cover transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-section-dark relative overflow-hidden">
-        <div className="absolute top-0 right-4 section-label select-none pointer-events-none opacity-10">CATALOG</div>
-        <div className="container mx-auto px-4 relative z-10">
-          <h2 className="text-2xl font-bold text-section-dark-foreground mb-10">{t("medya.catalog")}</h2>
-          <div className="flex flex-wrap gap-6">
-            {["TÜRKÇE", "ENGLISH", "Pусский"].map((lang) => (
-              <a key={lang} href="#" className="flex items-center gap-3 px-6 py-4 border border-section-dark-foreground/30 text-section-dark-foreground hover:border-primary hover:text-primary transition-colors">
-                <Download size={20} />
-                <span className="font-bold">{lang}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {selectedImg && (
-        <div className="fixed inset-0 z-50 bg-foreground/90 flex items-center justify-center p-4" onClick={() => setSelectedImg(null)}>
-          <img src={selectedImg} alt="" className="max-w-full max-h-[90vh] object-contain" />
+        <div
+          className="fixed inset-0 z-50 bg-foreground/90 flex items-center justify-center p-4"
+          onClick={() => setSelectedImg(null)}
+        >
+          <img
+            src={selectedImg}
+            alt=""
+            className="max-w-full max-h-[90vh] object-contain"
+          />
         </div>
       )}
     </PageLayout>
