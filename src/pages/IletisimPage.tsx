@@ -40,8 +40,14 @@ const IletisimPage = () => {
     {
       icon: Mail,
       label: t("iletisim.emailLabel"),
-      value: "info@bulungurmotors.uz",
-      href: "mailto:info@bulungurmotors.uz",
+      value: "contact@bmotors-uz.com",
+      href: "mailto:contact@bmotors-uz.com",
+    },
+    {
+      icon: Mail,
+      label: t("iletisim.emailLabel"),
+      value: "m.b.mallaev@bmotors-uz.com",
+      href: "mailto:m.b.mallaev@bmotors-uz.com",
     },
     {
       icon: Clock,
