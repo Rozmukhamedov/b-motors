@@ -11,7 +11,8 @@
   "hero": {
     "line1": "KELAJAK",
     "line2": "DEHQONCHILIGI",
-    "line3": "UCHUN TAYYOR BO'LING"
+    "line3": "UCHUN TAYYOR BO'LING",
+    "desc": "Keng assortimentdagi uskunalar, sifat kafolati, xizmat ko'rsatish va har bir mijozga individual yondashuv."
   },
   "products": {
     "title": "HOSILDOR YERLAR KABI BUYUK",
@@ -32,7 +33,7 @@
   },
   "export": {
     "title": "HAR BIR DALADA BIZNING NOMIMIZ BOR",
-    "desc": "7 qit'adagi 100 dan ortiq mamlakatga eksport qilib, TARIMÖZ sifatini butun dunyoga tanitamiz. Orzularimiz katta, yutuqlarimiz ham shunday."
+    "desc": "7 qit'adagi 100 dan ortiq mamlakatga eksport qilib, BULUNGUR MOTORS sifatini butun dunyoga tanitamiz. Orzularimiz katta, yutuqlarimiz ham shunday."
   },
   "team": {
     "title": "SIZ UCHUN BIRGAMIZ",
@@ -53,17 +54,32 @@
   "kurumsal": {
     "bannerLine1": "URUG' TUPROQQA TUSHIB",
     "bannerLine2": "UNIB CHIQQANDA HAMMA NARSA BOSHLANDI",
-    "aboutText1": "Yomg'irning tuproq bilan do'stligi, birinchi maysalar paydo bo'lganda insonni tuproqqa bog'ladi. Avval yomg'irni kuzatdi, keyin hosildor yerlarni.",
-    "aboutText2": "Biz, Tarımöz oilasi, 1977 yildan beri ekish mashinasi bilan boshlangan sayohat va mahsulot xilma-xilligini har kuni oshirib, Tarımöz brendi bilan fidoyilik va ishonch bilan qishloq xo'jaligi mashinalari va uskunalarini 35 dan ortiq mamlakatga muvaffaqiyatli eksport qilish faxrida yashaymiz.",
+    "advantagesTitle": "«BULUNGUR MOTORS» kompaniyasi bilan hamkorlikning afzalliklari",
+    "aboutLabel": "BIZ HAQIMIZDA",
+    "aboutCompanyName": "«BULUNGUR MOTORS» MChJ",
+    "aboutIntro": "2019 yilda tashkil etilgan bo'lib, biz O'zbekistonda qishloq xo'jaligiga yechimlar etkazib beruvchi yetakchi kompaniyamiz, sotish, ishlab chiqarish va sotishdan keyingi xizmat ko'rsatish bo'yicha kompleks xizmatlar taklif etamiz.",
+    "ourExperience": "Bizning tajribamiz:",
+    "experienceItems": [
+      "5 yildan ortiq qishloq xo'jaligi korxonalarini tushunish va ularga xizmat ko'rsatishga bag'ishlangan",
+      "Qishloq xo'jaligi, kommunal va tozalash texnikasiga bo'lgan ehtiyojlar uchun to'liq yechimlar",
+      "Premium jahon ishlab chiqaruvchilari bilan sheriklik",
+      "Mijozlar uchun qulay individual xarid shartlari"
+    ],
+    "ourApproachLabel": "Bizning yondashuvimiz:",
+    "ourApproachText": "Biz birgalikda rejalashtirish va individual yetkazib berish grafiklari orqali ta'minot noaniqliklarini bartaraf etamiz. Bu mijozlarimizga xarid muammolari bilan emas, balki asosiy faoliyatiga e'tibor qaratishga imkon beradi.",
+    "ourCommitmentLabel": "Bizning majburiyatimiz:",
+    "ourCommitmentText": "Biz shunchaki texnika yetkazib bermaymiz — biz O'zbekiston qishloq xo'jaligining rivojlanishiga yordam berib, ishonchlilik, samaradorlik va uzoq muddatli qo'llab-quvvatlashni ta'minlaymiz.",
+    "aboutText1": "Ombordan mahalliy va xorijiy ishlab chiqarishning qishloq xo'jaligi texnikasi va uskunalarini sotish. Traktorlar uchun yuk aravachalarini o'z ishlab chiqarish. 3 viloyatda o'z showroomlari: Toshkent, Samarqand, Jizzax. O'zbekiston Respublikasi bo'ylab xaridor omboriga yetkazib berish.",
+    "aboutText2": "Texnika, agregatlar va uskunalarni sotib olish va foydalanish bo'yicha professional maslahatlar. Istalgan qishloq xo'jaligi texnikasi uchun ehtiyot qismlar savdosi — ombordagi to'liq assortiment. Yuqori sifatli xizmat ko'rsatish va bajarilgan ishlarga kafolat.",
     "chairman": "Hilmi ARSLAN",
     "chairmanTitle": "Boshqaruv kengashi raisi",
     "sqm": "kvadrat metr",
     "factoryDesc": "Quyida ko'rayotgan hudud tashqaridan shunchaki zavod ko'rinishi mumkin, lekin bu mamlakatimiz va dunyoda dehqonchilikni rivojlantirish maqsadida tunab-tong otkazgan ikkinchi uyimizdir.",
     "timeTravel": "VAQT SAYOHATI",
     "mission": "MISSIYA",
-    "missionText": "Kompaniyaning har bir bosqichida doimiy rivojlanib, mahsulot turlarini ko'paytirish. Bilim va texnologiyadan foydalanib, doimo eng sifatli xizmat ko'rsatish.",
+    "missionText": "O'zbekiston qishloq xo'jaligi korxonalarini ishonchli texnika va kompleks yechimlar bilan ta'minlash, individual yondashuv va har bir mijoz bilan uzoq muddatli hamkorlik orqali ta'minot noaniqliklarini bartaraf etish.",
     "vision": "VIZION",
-    "visionText": "Turk brendi sifatida Turkiya va dunyoda ishonchlilik va sifatimiz bilan namunali muassasa bo'lish."
+    "visionText": "Markaziy Osiyoda qishloq xo'jaligi texnikasini yetkazib berishda yetakchi kompaniyaga aylanish, ishonchlilik, samaradorlik va innovatsion yechimlar orqali O'zbekiston agrar sektorining rivojlanishiga hissa qo'shish."
   },
   "timeline": {
     "1977": { "title": "DEHQONCHILIKNING MOHIYATI", "desc": "Dehqonchilikning mohiyati bizni ilhomlantirdi, shuning uchun biz bu qadriyat nomini oldik. 1977 yilda birinchi qadamimizni tashdik." },
@@ -73,7 +89,7 @@
     "2009": { "title": "ISHLASH", "desc": "2009 yilda tuproq ishlash mashinalarini ishlab chiqarish boshlandi." },
     "2010": { "title": "MEXANIZATSIYA", "desc": "2010 yilda robot payvandlash tizimlarini o'rnatdik." },
     "2016": { "title": "DUNYO DEVI", "desc": "2016 yilga kelib eksport 100 mamlakatga yetdi." },
-    "2023": { "title": "SUN'IY INTELLEKT", "desc": "2023 yildan boshlab Tarımöz industiya 4.0 va sun'iy intellektga qadam qo'ydi." }
+    "2023": { "title": "SUN'IY INTELLEKT", "desc": "2023 yildan boshlab Bulungur Motors industiya 4.0 va sun'iy intellektga qadam qo'ydi." }
   },
   "urunler": {
     "toprakGroup": "Tuproq ishlash guruhi",
@@ -88,7 +104,7 @@
   "tatesPage": {
     "title": "TATES,",
     "subtitle": "Yangi avlod dehqonchilik",
-    "systemName": "TARIMÖZ AQLLI DEHQONCHILIK USKUNALARI TIZIMLARI",
+    "systemName": "BULUNGUR MOTORS AQLLI DEHQONCHILIK USKUNALARI TIZIMLARI",
     "p1": "Raqamlashtirish davrida dehqonchilik an'anaviy usullardan chiqib, avtonom uskunalar va sun'iy intellekt yordamidagi texnologiyalar bilan yangi davrga kirmoqda. Biz TATES texnologiyalari bilan barqaror dehqonchilikning raqamli transformatsiyasiga peshqadamlik qilishdan faxrlanamiz.",
     "p2": "\"Tuproqqa qadr qo'y, kelajakni shakllantir\" shiori bilan aqlli texnologiyalarni dalalarimizga taklif etamiz!",
     "p3": "Boy tarixiymizdan olgan kuch bilan dehqonlarning samaradorligini oshiradigan va tabiat bilan uyg'un yechimlar taklif etuvchi aqlli qishloq xo'jaligi mashinalariga e'tibor qaratamiz.",
@@ -116,6 +132,10 @@
     "emailLabel": "Elektron pochta",
     "workHours": "Ish vaqti",
     "workHoursValue": "Du–Ju: 09:00–18:00"
+  },
+  "partners": {
+    "title": "BIZNING HAMKORLARIMIZ",
+    "desc": "Biz qishloq xo'jaligi texnologiyalari va uskunalari sohasidagi yetakchi kompaniyalar bilan hamkorlik qilishdan faxrlanamiz."
   },
   "breadcrumbs": {
     "home": "Bosh sahifa",

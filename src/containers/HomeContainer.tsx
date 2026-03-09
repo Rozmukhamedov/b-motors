@@ -6,6 +6,7 @@ import ExportSection from "@/components/ExportSection";
 import TeamSection from "@/components/TeamSection";
 import ServiceSection from "@/components/ServiceSection";
 import FutureSection from "@/components/FutureSection";
+import PartnersSection from "@/components/PartnersSection";
 
 const HomeContainer = () => {
   return (
@@ -18,6 +19,7 @@ const HomeContainer = () => {
       <TeamSection />
       <ServiceSection />
       <FutureSection />
+      <PartnersSection />
     </>
   );
 };

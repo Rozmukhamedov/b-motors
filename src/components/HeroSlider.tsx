@@ -30,13 +30,16 @@ const HeroSlider = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-primary/80 via-primary/40 to-transparent" />
       <div className="relative z-10 container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-primary-foreground leading-[0.95] tracking-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-primary-foreground leading-[0.95] tracking-tight">
             {t("hero.line1")}
             <br />
             {t("hero.line2")}
             <br />
             <span className="text-primary-foreground">{t("hero.line3")}</span>
           </h1>
+          <p className="mt-6 text-base md:text-lg text-primary-foreground/80 max-w-xl leading-relaxed">
+            {t("hero.desc")}
+          </p>
         </div>
       </div>
     </section>
