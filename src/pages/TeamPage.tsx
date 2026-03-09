@@ -5,35 +5,63 @@ import teamTogetherImg from "@/assets/team-together.png";
 import team2Img from "@/assets/team2.png";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
 
+const management = [
+  { name: "Baboev Toshpulat", ruTitle: "Директор", uzTitle: "Direktor", qualification: "Higher Education", experience: 20 },
+  { name: "Abduraimov Hasan", ruTitle: "Менеджер по продажам", uzTitle: "Savdo menejeri", qualification: "Higher Education", experience: 20 },
+  { name: "Mallaev Muhammad Bakhromovich", ruTitle: "Менеджер по продажам", uzTitle: "Savdo menejeri", qualification: "Higher Education", experience: 20 },
+  { name: "Buranov Rakhmatillo", ruTitle: "Инженер", uzTitle: "Muhandis", qualification: "Higher Education", experience: 30 },
+  { name: "Tursunov Uktam", ruTitle: "Директор по маркетингу", uzTitle: "Marketing direktori", qualification: "Higher Education", experience: 45 },
+  { name: "Atakulov Fayzullo", ruTitle: "Руководитель сборки", uzTitle: "Yig'ish bo'limi boshlig'i", qualification: "Higher Education", experience: 20 },
+  { name: "Jumaev Avaz", ruTitle: "Руководитель сборки", uzTitle: "Yig'ish bo'limi boshlig'i", qualification: "Higher Education", experience: 20 },
+  { name: "Khamroev Qahhor", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Secondary Education", experience: 5 },
+  { name: "Khaydarov Khusanjhon", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
+  { name: "Sagdullaev Sardor", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
+  { name: "Ochylov Olimjon", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
+  { name: "Begimalieva Feruza", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
+  { name: "Zikrieev Khuzhaakhmat", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
+  { name: "Karshiev O.", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Secondary Education", experience: 5 },
+  { name: "Gulboev Anvar", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
+  { name: "Sharipov Khusan", ruTitle: "Механик", uzTitle: "Mexanik", qualification: "Higher Education", experience: 5 },
+  { name: "Kholmatov Vokhid", ruTitle: "Водитель", uzTitle: "Haydovchi", qualification: "Secondary Education", experience: 4 },
+  { name: "Narzullaev Anvar", ruTitle: "Водитель", uzTitle: "Haydovchi", qualification: "Secondary Education", experience: 4 },
+  { name: "Qo'shboqov Zayniddin", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
+  { name: "Buranov Olimjon", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Secondary Education", experience: 4 },
+  { name: "Ochylov Olimjon (Servis)", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
+  { name: "Khujakulov Furkat", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
+];
+
 const departments = [
   {
-    ruName: "Отдел продаж",
-    uzName: "Savdo bo'limi",
+    ruName: "Отдел продаж и маркетинга",
+    uzName: "Savdo va marketing bo'limi",
     ruDesc:
-      "Профессиональная консультация и подбор техники для каждого клиента.",
-    uzDesc: "Har bir mijoz uchun professional maslahat va texnika tanlash.",
-  },
-  {
-    ruName: "Технический отдел",
-    uzName: "Texnik bo'lim",
-    ruDesc:
-      "Инженеры и механики с многолетним опытом обслуживания сельхозтехники.",
+      "Профессиональная консультация, работа с крупными агрокластерами и продвижение на выставках.",
     uzDesc:
-      "Qishloq xo'jaligi texnikasini ko'p yillik tajribaga ega muhandis va mexaniklar.",
+      "Professional maslahat, yirik agroclasterlar bilan ishlash va ko'rgazmalarda ishtirok.",
   },
   {
-    ruName: "Отдел запчастей",
-    uzName: "Ehtiyot qismlar bo'limi",
+    ruName: "Импорт и логистика",
+    uzName: "Import va logistika",
     ruDesc:
-      "Быстрый поиск и поставка оригинальных запасных частей по всей стране.",
+      "Прямые поставки от производителей, таможенное оформление и складской учёт техники.",
     uzDesc:
-      "Butun mamlakat bo'ylab original ehtiyot qismlarni tez topish va yetkazib berish.",
+      "Ishlab chiqaruvchilardan to'g'ridan-to'g'ri yetkazib berish, bojxona rasmiylashtiruvi va ombor hisobi.",
   },
   {
-    ruName: "Логистика",
-    uzName: "Logistika",
-    ruDesc: "Оперативная доставка и подготовка техники к эксплуатации.",
-    uzDesc: "Tezkor yetkazib berish va texnikani foydalanishga tayyorlash.",
+    ruName: "Технический сервис",
+    uzName: "Texnik servis",
+    ruDesc:
+      "Поддержка 24/7 в сезон, выездные бригады для ремонта прямо на поле и обучение операторов.",
+    uzDesc:
+      "Mavsumda 24/7 qo'llab-quvvatlash, dala ta'miri va operator tayyorlash.",
+  },
+  {
+    ruName: "Финансы и право",
+    uzName: "Moliya va huquq",
+    ruDesc:
+      "Банковские кредиты, субсидии 15%, налоговая отчётность и юридическое сопровождение.",
+    uzDesc:
+      "Bank kreditlari, 15% subsidiya rasmiylashtiruvi, soliq hisoboti va yuridik xizmat.",
   },
 ];
 
@@ -109,6 +137,69 @@ const TeamPage = () => {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Management Table */}
+      <section className="py-16 md:py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-black text-foreground tracking-tight mb-2">
+            {isRu ? "СОСТАВ КОМАНДЫ" : "JAMOA TARKIBI"}
+          </h2>
+          <div className="w-16 h-1.5 bg-primary mb-12" />
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-primary text-primary-foreground">
+                  <th className="text-left px-4 py-3 font-bold uppercase tracking-wide">
+                    #
+                  </th>
+                  <th className="text-left px-4 py-3 font-bold uppercase tracking-wide">
+                    {isRu ? "ФИО" : "Ism Familiya"}
+                  </th>
+                  <th className="text-left px-4 py-3 font-bold uppercase tracking-wide">
+                    {isRu ? "Должность" : "Lavozim"}
+                  </th>
+                  <th className="text-left px-4 py-3 font-bold uppercase tracking-wide">
+                    {isRu ? "Образование" : "Ma'lumot"}
+                  </th>
+                  <th className="text-left px-4 py-3 font-bold uppercase tracking-wide">
+                    {isRu ? "Опыт (лет)" : "Tajriba (yil)"}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {management.map((m, i) => (
+                  <tr
+                    key={i}
+                    className={i % 2 === 0 ? "bg-background" : "bg-muted/30"}
+                  >
+                    <td className="px-4 py-3 text-muted-foreground font-medium">
+                      {i + 1}
+                    </td>
+                    <td className="px-4 py-3 font-semibold text-foreground">
+                      {m.name}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {isRu ? m.ruTitle : m.uzTitle}
+                    </td>
+                    <td className="px-4 py-3 text-muted-foreground">
+                      {isRu
+                        ? m.qualification === "Higher Education"
+                          ? "Высшее"
+                          : "Среднее"
+                        : m.qualification === "Higher Education"
+                        ? "Oliy"
+                        : "O'rta"}
+                    </td>
+                    <td className="px-4 py-3 text-primary font-bold">
+                      {m.experience}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

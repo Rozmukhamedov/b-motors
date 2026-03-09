@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
-import { Phone, Mail, MapPin, Clock, Send, ArrowRight } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Send, ArrowRight, Printer } from "lucide-react";
 import bannerImg from "@/assets/banner-iletisim.jpg";
 import { useState } from "react";
 
@@ -34,20 +34,20 @@ const IletisimPage = () => {
     {
       icon: Phone,
       label: t("iletisim.phoneLabel"),
-      value: "+998 66 233 00 71",
-      href: "tel:+998662330071",
+      value: "+998 99 506 61 11",
+      href: "tel:+998995066111",
+    },
+    {
+      icon: Printer,
+      label: "Fax",
+      value: "+998 95 773 15 75",
+      href: "tel:+998957731575",
     },
     {
       icon: Mail,
       label: t("iletisim.emailLabel"),
-      value: "contact@bmotors-uz.com",
-      href: "mailto:contact@bmotors-uz.com",
-    },
-    {
-      icon: Mail,
-      label: t("iletisim.emailLabel"),
-      value: "m.b.mallaev@bmotors-uz.com",
-      href: "mailto:m.b.mallaev@bmotors-uz.com",
+      value: "mukhammad.mallaev@bk.ru",
+      href: "mailto:mukhammad.mallaev@bk.ru",
     },
     {
       icon: Clock,
@@ -114,7 +114,7 @@ const IletisimPage = () => {
                   {t("iletisim.phoneLabel")}
                 </p>
                 <div className="space-y-2">
-                  {["+998 66 233 00 71", "+998 66 233 00 72", "+998 66 233 00 74"].map((phone) => (
+                  {["+998 99 506 61 11", "+998 95 773 15 75"].map((phone) => (
                     <a
                       key={phone}
                       href={`tel:${phone.replace(/\s/g, "")}`}
@@ -233,10 +233,10 @@ const IletisimPage = () => {
         <div className="bg-section-dark py-6">
           <div className="container mx-auto px-4 text-center">
             <a
-              href="tel:+998662330071"
+              href="tel:+998995066111"
               className="text-4xl md:text-7xl font-black text-primary hover:text-primary/80 transition-colors tracking-tight"
             >
-              +998 66 233 00 71
+              +998 99 506 61 11
             </a>
           </div>
         </div>
