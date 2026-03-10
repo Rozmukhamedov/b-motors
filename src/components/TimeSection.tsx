@@ -3,9 +3,9 @@ import { useEffect, useRef, useState } from "react";
 import machinesImg from "@/assets/time-machines.png";
 
 const stats = [
-  { value: 47, suffix: "+", labelRu: "лет опыта", labelUz: "yillik tajriba" },
-  { value: 35, suffix: "+", labelRu: "стран экспорта", labelUz: "eksport mamlakati" },
-  { value: 50000, suffix: "м²", labelRu: "площадь завода", labelUz: "zavod maydoni" },
+  { value: 5, suffix: "+", labelRu: "лет опыта", labelUz: "yillik tajriba" },
+  { value: 3, suffix: "", labelRu: "региона", labelUz: "viloyat" },
+  { value: 3, suffix: "", labelRu: "филиала", labelUz: "filial" },
 ];
 
 function useCountUp(target: number, active: boolean) {

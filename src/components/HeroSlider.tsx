@@ -1,4 +1,4 @@
-import heroImg from "@/assets/hero-slider.webp";
+import heroImg from "@/assets/hero-slider.png";
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 
@@ -20,7 +20,10 @@ const HeroSlider = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative w-full h-[60vh] md:h-[85vh] overflow-hidden">
+    <section
+      ref={sectionRef}
+      className="relative w-full h-[60vh] md:h-[85vh] overflow-hidden"
+    >
       <img
         src={heroImg}
         alt={t("hero.line1")}

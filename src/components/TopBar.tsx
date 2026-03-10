@@ -13,13 +13,13 @@ const TopBar = () => {
     <div className="bg-topbar text-topbar-foreground">
       <div className="container mx-auto flex items-center justify-between px-4 py-2 text-sm">
         <div className="flex items-center gap-6">
-          <a href="tel:44442 92" className="flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="tel:+998662330071" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Phone size={14} />
-            <span>444 42 92</span>
+            <span>+998 66 233 00 71</span>
           </a>
-          <a href="mailto:bilgi@tarimoz.com.tr" className="hidden sm:flex items-center gap-2 hover:text-primary transition-colors">
+          <a href="mailto:contact@bmotors-uz.com" className="hidden sm:flex items-center gap-2 hover:text-primary transition-colors">
             <Mail size={14} />
-            <span>bilgi@tarimoz.com.tr</span>
+            <span>contact@bmotors-uz.com</span>
           </a>
         </div>
         <div className="flex items-center gap-4">

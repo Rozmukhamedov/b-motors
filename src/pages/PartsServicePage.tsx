@@ -2,8 +2,15 @@ import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
 import { Link } from "react-router-dom";
-import { Wrench, Package, Clock, ShieldCheck, ArrowRight, Phone } from "lucide-react";
-import bannerImg from "@/assets/banner-tates.jpg";
+import {
+  Wrench,
+  Package,
+  Clock,
+  ShieldCheck,
+  ArrowRight,
+  Phone,
+} from "lucide-react";
+import bannerImg from "@/assets/banner-tates.png";
 
 const PartsServicePage = () => {
   const { i18n } = useTranslation();
@@ -14,35 +21,55 @@ const PartsServicePage = () => {
       icon: ShieldCheck,
       titleRu: "ГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ",
       titleUz: "KAFOLAT XIZMATI",
-      descRu: "Полное гарантийное обслуживание всей техники Bulung'ur Motors в течение 12 месяцев с момента покупки.",
-      descUz: "Bulung'ur Motors texnikasining sotib olingan kundan boshlab 12 oy davomida to'liq kafolat xizmati.",
+      descRu:
+        "Полное гарантийное обслуживание всей техники Bulung'ur Motors в течение 12 месяцев с момента покупки.",
+      descUz:
+        "Bulung'ur Motors texnikasining sotib olingan kundan boshlab 12 oy davomida to'liq kafolat xizmati.",
     },
     {
       icon: Wrench,
       titleRu: "ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ",
       titleUz: "TEXNIK XIZMAT KO'RSATISH",
-      descRu: "Квалифицированные специалисты выполняют плановое и внеплановое техническое обслуживание на месте или в нашем сервисном центре.",
-      descUz: "Malakali mutaxassislar rejalashtirilgan va rejalashtirilmagan texnik xizmatni joyida yoki xizmat markazimizda amalga oshiradi.",
+      descRu:
+        "Квалифицированные специалисты выполняют плановое и внеплановое техническое обслуживание на месте или в нашем сервисном центре.",
+      descUz:
+        "Malakali mutaxassislar rejalashtirilgan va rejalashtirilmagan texnik xizmatni joyida yoki xizmat markazimizda amalga oshiradi.",
     },
     {
       icon: Package,
       titleRu: "ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ",
       titleUz: "ORIGINAL EHTIYOT QISMLAR",
-      descRu: "Широкий склад оригинальных запасных частей для всего модельного ряда. Быстрая доставка по всему Узбекистану.",
-      descUz: "Barcha model qatori uchun original ehtiyot qismlarning keng ombori. Butun O'zbekiston bo'ylab tez yetkazib berish.",
+      descRu:
+        "Широкий склад оригинальных запасных частей для всего модельного ряда. Быстрая доставка по всему Узбекистану.",
+      descUz:
+        "Barcha model qatori uchun original ehtiyot qismlarning keng ombori. Butun O'zbekiston bo'ylab tez yetkazib berish.",
     },
     {
       icon: Clock,
       titleRu: "ОПЕРАТИВНЫЙ ВЫЕЗД",
       titleUz: "TEZKOR CHIQISH",
-      descRu: "Выезд сервисного специалиста в течение 24 часов по всей Самаркандской области и прилегающим регионам.",
-      descUz: "Butun Samarqand viloyati va qo'shni hududlarga 24 soat ichida xizmat mutaxassisi chiqishi.",
+      descRu:
+        "Выезд сервисного специалиста в течение 24 часов по всей Самаркандской области и прилегающим регионам.",
+      descUz:
+        "Butun Samarqand viloyati va qo'shni hududlarga 24 soat ichida xizmat mutaxassisi chiqishi.",
     },
   ];
 
   const steps = isRu
-    ? ["Позвоните нам или оставьте заявку", "Диагностика техники специалистом", "Согласование стоимости работ", "Выполнение ремонта или замены", "Проверка и сдача техники"]
-    : ["Bizga qo'ng'iroq qiling yoki so'rov qoldiring", "Mutaxassis tomonidan texnikani diagnostika qilish", "Ish narxini kelishish", "Ta'mirlash yoki almashtirish", "Texnikani tekshirish va topshirish"];
+    ? [
+        "Позвоните нам или оставьте заявку",
+        "Диагностика техники специалистом",
+        "Согласование стоимости работ",
+        "Выполнение ремонта или замены",
+        "Проверка и сдача техники",
+      ]
+    : [
+        "Bizga qo'ng'iroq qiling yoki so'rov qoldiring",
+        "Mutaxassis tomonidan texnikani diagnostika qilish",
+        "Ish narxini kelishish",
+        "Ta'mirlash yoki almashtirish",
+        "Texnikani tekshirish va topshirish",
+      ];
 
   return (
     <PageLayout>
@@ -52,7 +79,10 @@ const PartsServicePage = () => {
         titleLine2={isRu ? "И СЕРВИС" : "VA XIZMAT"}
         breadcrumbs={[
           { label: isRu ? "Главная" : "Bosh sahifa", path: "/" },
-          { label: isRu ? "Запчасти и сервис" : "Ehtiyot qismlar va xizmat", path: "/parts-service" },
+          {
+            label: isRu ? "Запчасти и сервис" : "Ehtiyot qismlar va xizmat",
+            path: "/parts-service",
+          },
         ]}
       />
 
@@ -65,7 +95,10 @@ const PartsServicePage = () => {
           <div className="w-16 h-1.5 bg-primary mb-12" />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((s, i) => (
-              <div key={i} className="border border-border p-6 hover:border-primary/50 transition-colors group">
+              <div
+                key={i}
+                className="border border-border p-6 hover:border-primary/50 transition-colors group"
+              >
                 <div className="w-12 h-12 bg-primary flex items-center justify-center mb-4 transition-transform group-hover:scale-110">
                   <s.icon className="text-primary-foreground" size={22} />
                 </div>
@@ -95,17 +128,25 @@ const PartsServicePage = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-4">
               {steps.map((step, i) => (
-                <div key={i} className="relative flex md:flex-col items-start md:items-center gap-5 md:gap-0 md:text-center group">
+                <div
+                  key={i}
+                  className="relative flex md:flex-col items-start md:items-center gap-5 md:gap-0 md:text-center group"
+                >
                   {/* Number bubble */}
                   <div className="relative z-10 shrink-0">
                     <div className="w-14 h-14 bg-section-dark border-2 border-section-dark-foreground/20 group-hover:border-primary flex items-center justify-center transition-colors duration-300">
-                      <span className="text-primary font-black text-xl leading-none">{i + 1}</span>
+                      <span className="text-primary font-black text-xl leading-none">
+                        {i + 1}
+                      </span>
                     </div>
                   </div>
 
                   {/* Arrow between items (mobile) */}
                   {i < steps.length - 1 && (
-                    <ArrowRight size={14} className="text-primary/40 md:hidden mt-4 shrink-0" />
+                    <ArrowRight
+                      size={14}
+                      className="text-primary/40 md:hidden mt-4 shrink-0"
+                    />
                   )}
 
                   <p className="text-section-dark-foreground/70 text-sm leading-relaxed md:mt-6 md:px-2 group-hover:text-section-dark-foreground transition-colors duration-300">
@@ -126,7 +167,9 @@ const PartsServicePage = () => {
               {isRu ? "НУЖНА ПОМОЩЬ?" : "YORDAM KERAKMI?"}
             </h2>
             <p className="text-primary-foreground/80 mt-1">
-              {isRu ? "Свяжитесь с нашим сервисным центром прямо сейчас" : "Hoziroq xizmat markazimiz bilan bog'laning"}
+              {isRu
+                ? "Свяжитесь с нашим сервисным центром прямо сейчас"
+                : "Hoziroq xizmat markazimiz bilan bog'laning"}
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">

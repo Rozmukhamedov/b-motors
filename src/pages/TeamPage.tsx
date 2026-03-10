@@ -2,32 +2,163 @@ import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
 import teamTogetherImg from "@/assets/team-together.png";
-import team2Img from "@/assets/team2.png";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
 
 const management = [
-  { name: "Baboev Toshpulat", ruTitle: "Директор", uzTitle: "Direktor", qualification: "Higher Education", experience: 20 },
-  { name: "Abduraimov Hasan", ruTitle: "Менеджер по продажам", uzTitle: "Savdo menejeri", qualification: "Higher Education", experience: 20 },
-  { name: "Mallaev Muhammad Bakhromovich", ruTitle: "Менеджер по продажам", uzTitle: "Savdo menejeri", qualification: "Higher Education", experience: 20 },
-  { name: "Buranov Rakhmatillo", ruTitle: "Инженер", uzTitle: "Muhandis", qualification: "Higher Education", experience: 30 },
-  { name: "Tursunov Uktam", ruTitle: "Директор по маркетингу", uzTitle: "Marketing direktori", qualification: "Higher Education", experience: 45 },
-  { name: "Atakulov Fayzullo", ruTitle: "Руководитель сборки", uzTitle: "Yig'ish bo'limi boshlig'i", qualification: "Higher Education", experience: 20 },
-  { name: "Jumaev Avaz", ruTitle: "Руководитель сборки", uzTitle: "Yig'ish bo'limi boshlig'i", qualification: "Higher Education", experience: 20 },
-  { name: "Khamroev Qahhor", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Secondary Education", experience: 5 },
-  { name: "Khaydarov Khusanjhon", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
-  { name: "Sagdullaev Sardor", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
-  { name: "Ochylov Olimjon", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 4 },
-  { name: "Begimalieva Feruza", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
-  { name: "Zikrieev Khuzhaakhmat", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
-  { name: "Karshiev O.", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Secondary Education", experience: 5 },
-  { name: "Gulboev Anvar", ruTitle: "Торговый агент", uzTitle: "Savdo agenti", qualification: "Higher Education", experience: 5 },
-  { name: "Sharipov Khusan", ruTitle: "Механик", uzTitle: "Mexanik", qualification: "Higher Education", experience: 5 },
-  { name: "Kholmatov Vokhid", ruTitle: "Водитель", uzTitle: "Haydovchi", qualification: "Secondary Education", experience: 4 },
-  { name: "Narzullaev Anvar", ruTitle: "Водитель", uzTitle: "Haydovchi", qualification: "Secondary Education", experience: 4 },
-  { name: "Qo'shboqov Zayniddin", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
-  { name: "Buranov Olimjon", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Secondary Education", experience: 4 },
-  { name: "Ochylov Olimjon (Servis)", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
-  { name: "Khujakulov Furkat", ruTitle: "Сервисный техник", uzTitle: "Servis texniki", qualification: "Higher Education", experience: 4 },
+  {
+    name: "Baboev Toshpulat",
+    ruTitle: "Директор",
+    uzTitle: "Direktor",
+    qualification: "Higher Education",
+    experience: 20,
+  },
+  {
+    name: "Abduraimov Hasan",
+    ruTitle: "Менеджер по продажам",
+    uzTitle: "Savdo menejeri",
+    qualification: "Higher Education",
+    experience: 20,
+  },
+  {
+    name: "Mallaev Muhammad Bakhromovich",
+    ruTitle: "Менеджер по продажам",
+    uzTitle: "Savdo menejeri",
+    qualification: "Higher Education",
+    experience: 20,
+  },
+  {
+    name: "Buranov Rakhmatillo",
+    ruTitle: "Инженер",
+    uzTitle: "Muhandis",
+    qualification: "Higher Education",
+    experience: 30,
+  },
+  {
+    name: "Tursunov Uktam",
+    ruTitle: "Директор по маркетингу",
+    uzTitle: "Marketing direktori",
+    qualification: "Higher Education",
+    experience: 45,
+  },
+  {
+    name: "Atakulov Fayzullo",
+    ruTitle: "Руководитель сборки",
+    uzTitle: "Yig'ish bo'limi boshlig'i",
+    qualification: "Higher Education",
+    experience: 20,
+  },
+  {
+    name: "Jumaev Avaz",
+    ruTitle: "Руководитель сборки",
+    uzTitle: "Yig'ish bo'limi boshlig'i",
+    qualification: "Higher Education",
+    experience: 20,
+  },
+  {
+    name: "Khamroev Qahhor",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Secondary Education",
+    experience: 5,
+  },
+  {
+    name: "Khaydarov Khusanjhon",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 4,
+  },
+  {
+    name: "Sagdullaev Sardor",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 4,
+  },
+  {
+    name: "Ochylov Olimjon",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 4,
+  },
+  {
+    name: "Begimalieva Feruza",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 5,
+  },
+  {
+    name: "Zikrieev Khuzhaakhmat",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 5,
+  },
+  {
+    name: "Karshiev O.",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Secondary Education",
+    experience: 5,
+  },
+  {
+    name: "Gulboev Anvar",
+    ruTitle: "Торговый агент",
+    uzTitle: "Savdo agenti",
+    qualification: "Higher Education",
+    experience: 5,
+  },
+  {
+    name: "Sharipov Khusan",
+    ruTitle: "Механик",
+    uzTitle: "Mexanik",
+    qualification: "Higher Education",
+    experience: 5,
+  },
+  {
+    name: "Kholmatov Vokhid",
+    ruTitle: "Водитель",
+    uzTitle: "Haydovchi",
+    qualification: "Secondary Education",
+    experience: 4,
+  },
+  {
+    name: "Narzullaev Anvar",
+    ruTitle: "Водитель",
+    uzTitle: "Haydovchi",
+    qualification: "Secondary Education",
+    experience: 4,
+  },
+  {
+    name: "Qo'shboqov Zayniddin",
+    ruTitle: "Сервисный техник",
+    uzTitle: "Servis texniki",
+    qualification: "Higher Education",
+    experience: 4,
+  },
+  {
+    name: "Buranov Olimjon",
+    ruTitle: "Сервисный техник",
+    uzTitle: "Servis texniki",
+    qualification: "Secondary Education",
+    experience: 4,
+  },
+  {
+    name: "Ochylov Olimjon (Servis)",
+    ruTitle: "Сервисный техник",
+    uzTitle: "Servis texniki",
+    qualification: "Higher Education",
+    experience: 4,
+  },
+  {
+    name: "Khujakulov Furkat",
+    ruTitle: "Сервисный техник",
+    uzTitle: "Servis texniki",
+    qualification: "Higher Education",
+    experience: 4,
+  },
 ];
 
 const departments = [
@@ -190,8 +321,8 @@ const TeamPage = () => {
                           ? "Высшее"
                           : "Среднее"
                         : m.qualification === "Higher Education"
-                        ? "Oliy"
-                        : "O'rta"}
+                          ? "Oliy"
+                          : "O'rta"}
                     </td>
                     <td className="px-4 py-3 text-primary font-bold">
                       {m.experience}
@@ -201,17 +332,6 @@ const TeamPage = () => {
               </tbody>
             </table>
           </div>
-        </div>
-      </section>
-
-      {/* Team photo */}
-      <section className="bg-background">
-        <div className="container mx-auto px-4 py-16">
-          <img
-            src={team2Img}
-            alt={isRu ? "Команда Bulung'ur Motors" : "Bulung'ur Motors jamoasi"}
-            className="w-full object-cover max-h-[500px]"
-          />
         </div>
       </section>
     </PageLayout>

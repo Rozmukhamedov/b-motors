@@ -15,9 +15,9 @@ const HomeContainer = () => {
       <ProductsSection />
       <PowerSection />
       <TimeSection />
-      <ExportSection />
-      <TeamSection />
+      {/* <ExportSection /> */}
       <ServiceSection />
+      <TeamSection />
       <FutureSection />
       <PartnersSection />
     </>
