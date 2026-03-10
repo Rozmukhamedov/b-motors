@@ -104,20 +104,6 @@ const KurumsalPage = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-6xl md:text-8xl font-black text-primary mb-2">
-            50.000
-          </h2>
-          <p className="text-xl text-section-dark-foreground/80">
-            {t("kurumsal.sqm")}
-          </p>
-          <p className="mt-6 max-w-2xl mx-auto text-section-dark-foreground/70 leading-relaxed">
-            {t("kurumsal.factoryDesc")}
-          </p>
-        </div>
-      </section>
-
       <section className="py-16 md:py-24 bg-background relative overflow-hidden">
         <div className="absolute top-0 left-4 section-label select-none pointer-events-none">
           TRAVEL
