@@ -97,7 +97,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/alpino.uz?igsh=am5jNHRteDhpbTZj"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="w-10 h-10 border border-section-dark-foreground/30 flex items-center justify-center hover:border-primary hover:text-primary transition-colors"
               >
