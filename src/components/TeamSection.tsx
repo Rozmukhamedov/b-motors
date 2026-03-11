@@ -1,8 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import teamImg from "@/assets/team-together.png";
-import team2Img from "@/assets/team2.png";
+import teamImg from "@/assets/team-together1.png";
 
 const values = [
   { ru: "Уважение к потребителям", uz: "Iste'molchilarga hurmat" },
