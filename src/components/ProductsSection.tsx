@@ -18,7 +18,7 @@ const ProductsSection = () => {
               <span className="text-primary-foreground text-xl font-bold">{t("products.ekimGroup")}</span>
             </div>
           </Link>
-          <Link to="/products" className="group relative overflow-hidden block">
+          <Link to="/products" className="group relative overflow-hidden hidden md:block">
             <img src={toprakImg} alt={t("products.toprakGroup")} className="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-500 group-hover:scale-105" />
             <div className="absolute inset-0 bg-foreground/20 group-hover:bg-foreground/40 transition-colors flex items-end p-6">
               <span className="text-primary-foreground text-xl font-bold">{t("products.toprakGroup")}</span>
