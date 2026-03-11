@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import machinesImg from "@/assets/time-machines1.png";
 
 const stats = [
-  { value: 5, suffix: "+", labelRu: "лет опыта", labelUz: "yillik tajriba" },
-  { value: 3, suffix: "", labelRu: "региона", labelUz: "viloyat" },
+  { value: 7, suffix: "+", labelRu: "лет опыта", labelUz: "yillik tajriba" },
+  { value: 12, suffix: "", labelRu: "региона", labelUz: "viloyat" },
   { value: 3, suffix: "", labelRu: "филиала", labelUz: "filial" },
 ];
 
