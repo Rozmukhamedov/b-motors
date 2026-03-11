@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import ekimImg from "@/assets/products-ekim.webp";
-import toprakImg from "@/assets/products-toprak.webp";
+import ekimImg from "@/assets/products-ekim.png";
+import toprakImg from "@/assets/products-toprak.png";
 
 const ProductsSection = () => {
   const { t } = useTranslation();

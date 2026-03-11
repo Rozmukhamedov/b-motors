@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import teamImg from "@/assets/team-together1.png";
+import teamImg from "@/assets/team-together.png";
 
 const values = [
   { ru: "Уважение к потребителям", uz: "Iste'molchilarga hurmat" },
@@ -23,17 +23,14 @@ const TeamSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left: images collage */}
+          {/* Primary image */}
           <div className="relative">
-            {/* Primary image */}
-            <div className="relative">
-              <div className="absolute -top-4 -left-4 w-24 h-24 bg-primary/20" />
-              <img
-                src={teamImg}
-                alt={t("team.title")}
-                className="relative z-10 w-full max-w-md mx-auto lg:mx-0"
-              />
-            </div>
+            <div className="absolute -top-4 -left-6 w-24 h-24 bg-primary/20" />
+            <img
+              src={teamImg}
+              alt={t("team.title")}
+              className="relative z-10 w-full max-w-md mx-auto lg:ml-16"
+            />
           </div>
 
           {/* Right: text */}

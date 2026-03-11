@@ -49,9 +49,9 @@ const PartsServicePage = () => {
       titleRu: "ОПЕРАТИВНЫЙ ВЫЕЗД",
       titleUz: "TEZKOR CHIQISH",
       descRu:
-        "Выезд сервисного специалиста в течение 24 часов по всей Самаркандской области и прилегающим регионам.",
+        "Выезд сервисного специалиста в течение 24 часов по всей стране.",
       descUz:
-        "Butun Samarqand viloyati va qo'shni hududlarga 24 soat ichida xizmat mutaxassisi chiqishi.",
+        "Butun mamlakat bo'ylab 24 soat ichida xizmat mutaxassisi chiqishi.",
     },
   ];
 

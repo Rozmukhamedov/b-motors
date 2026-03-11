@@ -11,7 +11,7 @@ const items = [
   {
     icon: Wrench,
     ru: { title: "Техническое обслуживание и ремонт", desc: "Квалифицированные мастера на месте или в сервисном центре" },
-    uz: { title: "TexXizmat va ta'mirlash", desc: "Joyida yoki xizmat markazida malakali ustalar" },
+    uz: { title: "Texnik xizmat va ta'mirlash", desc: "Joyida yoki xizmat markazida malakali ustalar" },
   },
   {
     icon: Package,
@@ -20,8 +20,8 @@ const items = [
   },
   {
     icon: Clock,
-    ru: { title: "Выезд в любую точку", desc: "Оперативный выезд специалиста по Самаркандской области" },
-    uz: { title: "24 soat chiqish", desc: "Samarqand viloyati bo'ylab mutaxassis tezkor chiqishi" },
+    ru: { title: "Выезд в любую точку", desc: "Оперативный выезд специалиста по всей стране" },
+    uz: { title: "Istalgan joyga chiqish", desc: "Butun mamlakat bo'ylab mutaxassis tezkor chiqishi" },
   },
 ];
 

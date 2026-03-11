@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
-import machinesImg from "@/assets/time-machines1.png";
+import machinesImg from "@/assets/time-machines.png";
 
 const stats = [
   { value: 7, suffix: "+", labelRu: "лет опыта", labelUz: "yillik tajriba" },
@@ -84,7 +84,7 @@ const TimeSection = () => {
           <img
             src={machinesImg}
             alt={t("time.title")}
-            className="relative z-10 w-4/5 h-4/5 object-contain"
+            className="relative z-10 w-[100%] h-[100%] object-contain"
           />
           {/* Right gradient bleed into content */}
           <div className="absolute inset-y-0 right-0 w-16 bg-gradient-to-r from-transparent to-section-dark hidden lg:block" />

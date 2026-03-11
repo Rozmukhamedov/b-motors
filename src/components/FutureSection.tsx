@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import satelliteImg from "@/assets/future-satellite.png";
-import newgenImg from "@/assets/future-newgen.png";
 
 const FutureSection = () => {
   const { t } = useTranslation();
@@ -27,9 +26,6 @@ const FutureSection = () => {
             </p>
           </div>
         </div>
-        {/* <div className="mt-12 flex justify-center">
-          <img src={newgenImg} alt="" className="w-full max-w-2xl" />
-        </div> */}
       </div>
     </section>
   );
