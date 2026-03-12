@@ -1,7 +1,15 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
-import { Phone, Mail, MapPin, Clock, Send, ArrowRight, Printer } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  Send,
+  ArrowRight,
+  Printer,
+} from "lucide-react";
 import bannerImg from "@/assets/banner-iletisim.jpg";
 import { useState } from "react";
 
@@ -15,7 +23,9 @@ const IletisimPage = () => {
     message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -34,20 +44,20 @@ const IletisimPage = () => {
     {
       icon: Phone,
       label: t("iletisim.phoneLabel"),
-      value: "+998 99 506 61 11",
-      href: "tel:+998995066111",
+      value: "+998 66 233 00 71",
+      href: "tel:+998662330071",
     },
     {
       icon: Printer,
       label: "Fax",
-      value: "+998 95 773 15 75",
-      href: "tel:+998957731575",
+      value: "+998 66 233 00 72",
+      href: "tel:+998662330072",
     },
     {
       icon: Mail,
       label: t("iletisim.emailLabel"),
-      value: "mukhammad.mallaev@bk.ru",
-      href: "mailto:mukhammad.mallaev@bk.ru",
+      value: "contact@bmotors-uz.com",
+      href: "mailto:contact@bmotors-uz.com",
     },
     {
       icon: Clock,
@@ -72,10 +82,9 @@ const IletisimPage = () => {
       <section className="py-20 md:py-32 bg-background relative overflow-hidden">
         {/* Background decoration */}
         <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/[0.03] -skew-x-12 translate-x-20" />
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
-            
             {/* Left — Contact Info */}
             <div>
               <h2 className="text-4xl md:text-5xl font-black text-foreground tracking-tight mb-3">
@@ -87,7 +96,10 @@ const IletisimPage = () => {
                 {contactItems.map((item, idx) => (
                   <div key={idx} className="flex items-start gap-5 group">
                     <div className="w-14 h-14 bg-primary flex items-center justify-center shrink-0 transition-transform group-hover:scale-110">
-                      <item.icon className="text-primary-foreground" size={24} />
+                      <item.icon
+                        className="text-primary-foreground"
+                        size={24}
+                      />
                     </div>
                     <div>
                       <p className="text-sm font-bold text-muted-foreground uppercase tracking-wider mb-1">
@@ -101,30 +113,13 @@ const IletisimPage = () => {
                           {item.value}
                         </a>
                       ) : (
-                        <p className="text-foreground text-lg font-medium">{item.value}</p>
+                        <p className="text-foreground text-lg font-medium">
+                          {item.value}
+                        </p>
                       )}
                     </div>
                   </div>
                 ))}
-              </div>
-
-              {/* Additional phones */}
-              <div className="mt-12 p-8 bg-section-dark">
-                <p className="text-primary-foreground text-sm font-bold uppercase tracking-wider mb-4">
-                  {t("iletisim.phoneLabel")}
-                </p>
-                <div className="space-y-2">
-                  {["+998 99 506 61 11", "+998 95 773 15 75"].map((phone) => (
-                    <a
-                      key={phone}
-                      href={`tel:${phone.replace(/\s/g, "")}`}
-                      className="flex items-center gap-3 text-primary-foreground/80 hover:text-primary transition-colors text-lg"
-                    >
-                      <ArrowRight size={14} className="text-primary" />
-                      {phone}
-                    </a>
-                  ))}
-                </div>
               </div>
             </div>
 
@@ -220,7 +215,10 @@ const IletisimPage = () => {
                 >
                   <Send size={20} />
                   {t("iletisim.send")}
-                  <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+                  <ArrowRight
+                    size={18}
+                    className="transition-transform group-hover:translate-x-1"
+                  />
                 </button>
               </form>
             </div>
@@ -233,10 +231,10 @@ const IletisimPage = () => {
         <div className="bg-section-dark py-6">
           <div className="container mx-auto px-4 text-center">
             <a
-              href="tel:+998995066111"
+              href="tel:+998662330071"
               className="text-4xl md:text-7xl font-black text-primary hover:text-primary/80 transition-colors tracking-tight"
             >
-              +998 99 506 61 11
+              +998 66 233 00 71
             </a>
           </div>
         </div>

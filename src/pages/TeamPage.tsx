@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
-import teamTogetherImg from "@/assets/team-together.png";
+import teamTogetherImg from "@/assets/team.png";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
 
 const management = [

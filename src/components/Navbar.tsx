@@ -12,7 +12,7 @@ const Navbar = () => {
     { label: t("nav.home"), path: "/" },
     { label: t("nav.corporate"), path: "/about" },
     { label: t("nav.products"), path: "/products" },
-    { label: t("nav.media"), path: "/media" },
+    // { label: t("nav.media"), path: "/media" },
     { label: t("nav.partsService"), path: "/parts-service" },
     { label: t("nav.team"), path: "/team" },
     { label: t("nav.contact"), path: "/contact" },
