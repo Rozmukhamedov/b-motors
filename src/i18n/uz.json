@@ -82,14 +82,10 @@
     "visionText": "Markaziy Osiyoda qishloq xo'jaligi texnikasini yetkazib berishda yetakchi kompaniyaga aylanish, ishonchlilik, samaradorlik va innovatsion yechimlar orqali O'zbekiston agrar sektorining rivojlanishiga hissa qo'shish."
   },
   "timeline": {
-    "1977": { "title": "DEHQONCHILIKNING MOHIYATI", "desc": "Dehqonchilikning mohiyati bizni ilhomlantirdi, shuning uchun biz bu qadriyat nomini oldik. 1977 yilda birinchi qadamimizni tashdik." },
-    "1985": { "title": "JOYLASHISH", "desc": "1985 yilda Konyada 3000 m² hajmdagi birinchi korxonamizni yaratdik." },
-    "1994": { "title": "TARQALISH", "desc": "1994 yilda birinchi eksportimizni amalga oshirdik va cheksiz sayohatni boshladik." },
-    "2008": { "title": "O'SISH", "desc": "Bugungi kunda ham faol foydalanayotgan 50 000 m² yangi zavodimizga ko'chdik." },
-    "2009": { "title": "ISHLASH", "desc": "2009 yilda tuproq ishlash mashinalarini ishlab chiqarish boshlandi." },
-    "2010": { "title": "MEXANIZATSIYA", "desc": "2010 yilda robot payvandlash tizimlarini o'rnatdik." },
-    "2016": { "title": "DUNYO DEVI", "desc": "2016 yilga kelib eksport 100 mamlakatga yetdi." },
-    "2023": { "title": "SUN'IY INTELLEKT", "desc": "2023 yildan boshlab Bulungur Motors industiya 4.0 va sun'iy intellektga qadam qo'ydi." }
+    "2018": { "title": "TASHKIL ETISH", "desc": "2018 yilda Bulungur Motors kompaniyasi o'zbek dehqonlarini zamonaviy qishloq xo'jaligi texnikasi bilan ta'minlash maqsadida tashkil etildi." },
+    "2019": { "title": "BIRINCHI MAHSULOTLAR", "desc": "2019 yilda Bulungur Motors brendida tuproq ishlash texnikasining birinchi modellari ishlab chiqildi va ishlab chiqarishga chiqarildi." },
+    "2020": { "title": "ISHLAB CHIQARISHNI KENGAYTIRISH", "desc": "2020 yilda ishlab chiqarish quvvatlarini kengaytirdik va qishloq xo'jaligi uskunalarining yangi liniyalarini ishga tushirdik." },
+    "2021": { "title": "MINTAQAVIY QAMROV", "desc": "2021 yilga kelib Bulungur Motors mahsulotlari O'zbekistonning barcha viloyatlarida, minglab fermer xo'jaliklarida mavjud bo'ldi." }
   },
   "urunler": {
     "toprakGroup": "Tuproq ishlash guruhi",

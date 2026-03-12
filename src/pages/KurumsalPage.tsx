@@ -2,20 +2,15 @@ import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
-import hakkimizdaImg from "@/assets/hakkimizda.png";
 import misyonImg from "@/assets/misyon.png";
 import vizyonImg from "@/assets/vizyon.png";
 import PartnersSection from "@/components/PartnersSection";
 
 const timelineYears = [
-  "1977",
-  "1985",
-  "1994",
-  "2008",
-  "2009",
-  "2010",
-  "2016",
-  "2023",
+  "2018",
+  "2019",
+  "2020",
+  "2021",
 ] as const;
 
 const KurumsalPage = () => {
@@ -35,25 +30,16 @@ const KurumsalPage = () => {
 
       <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                {t("kurumsal.advantagesTitle")}
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                {t("kurumsal.aboutText1")}
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                {t("kurumsal.aboutText2")}
-              </p>
-            </div>
-            <div>
-              <img
-                src={hakkimizdaImg}
-                alt=""
-                className="w-full max-w-lg mx-auto"
-              />
-            </div>
+          <div className="max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold text-foreground mb-6">
+              {t("kurumsal.advantagesTitle")}
+            </h3>
+            <p className="text-muted-foreground leading-relaxed mb-6 text-lg">
+              {t("kurumsal.aboutText1")}
+            </p>
+            <p className="text-muted-foreground leading-relaxed text-lg">
+              {t("kurumsal.aboutText2")}
+            </p>
           </div>
         </div>
       </section>
