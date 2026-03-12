@@ -6,12 +6,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import KurumsalPage from "./pages/KurumsalPage";
-import UrunlerPage from "./pages/UrunlerPage";
 import MedyaPage from "./pages/MedyaPage";
 import PartsServicePage from "./pages/PartsServicePage";
 import TeamPage from "./pages/TeamPage";
 import IletisimPage from "./pages/IletisimPage";
 import NotFound from "./pages/NotFound";
+import ProductsPage from "./pages/UrunlerPage";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<KurumsalPage />} />
-          <Route path="/products" element={<UrunlerPage />} />
+          <Route path="/products" element={<ProductsPage />} />
           <Route path="/media" element={<MedyaPage />} />
           <Route path="/parts-service" element={<PartsServicePage />} />
           <Route path="/team" element={<TeamPage />} />

@@ -1,26 +1,26 @@
 import { useTranslation } from "react-i18next";
 import alpego from "@/assets/partners/alpego.png";
-import belarus from "@/assets/partners/belarus.png";
+import belarus from "@/assets/partners/partner4.png";
 import ebrar from "@/assets/partners/ebrar.png";
-import johnDeere from "@/assets/partners/john-deere.png";
+import partner2 from "@/assets/partners/partner2.png";
 import mascar from "@/assets/partners/mascar.png";
-import deutzFahr from "@/assets/partners/deutz-fahr.png";
+import deutzFahr from "@/assets/partners/partner3.png";
 import tarimoz from "@/assets/partners/tarimoz.png";
 import masseyFerguson from "@/assets/partners/massey-ferguson.png";
-import tym from "@/assets/partners/tym.png";
+import tym from "@/assets/partners/partner5.png";
 import zeppelin from "@/assets/partners/zeppelin.png";
 
 const partners = [
-  { img: johnDeere, name: "John Deere" },
-  { img: masseyFerguson, name: "Massey Ferguson" },
-  { img: deutzFahr, name: "Deutz-Fahr" },
-  { img: belarus, name: "Belarus" },
-  { img: tym, name: "TYM Tractors" },
-  { img: alpego, name: "Alpego" },
-  { img: mascar, name: "Mascar" },
-  { img: ebrar, name: "Ebrar" },
-  { img: zeppelin, name: "Zeppelin" },
-  { img: tarimoz, name: "Tarımöz" },
+  { img: partner2, name: "Partner 2", scale: 1.8 },
+  { img: masseyFerguson, name: "Massey Ferguson", scale: 1 },
+  { img: deutzFahr, name: "Deutz-Fahr", scale: 2.2 },
+  { img: belarus, name: "Belarus", scale: 2.2 },
+  { img: tym, name: "TYM Tractors", scale: 2.2 },
+  { img: alpego, name: "Alpego", scale: 1 },
+  { img: mascar, name: "Mascar", scale: 1 },
+  { img: ebrar, name: "Ebrar", scale: 1 },
+  { img: zeppelin, name: "Zeppelin", scale: 1 },
+  { img: tarimoz, name: "Tarımöz", scale: 1 },
 ];
 
 const PartnersSection = () => {
@@ -44,7 +44,8 @@ const PartnersSection = () => {
               <img
                 src={p.img}
                 alt={p.name}
-                className="max-h-20 md:max-h-24 w-auto object-contain"
+                className="w-full h-full object-contain"
+                style={{ transform: `scale(${p.scale})` }}
               />
             </div>
           ))}
