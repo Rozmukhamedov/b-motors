@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import satelliteImg from "@/assets/future-satellite.png";
+import satelliteImg from "@/assets/future-satellite.jpg";
 
 const FutureSection = () => {
   const { t } = useTranslation();
@@ -10,11 +10,11 @@ const FutureSection = () => {
       </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="group bg-background rounded-2xl flex items-center justify-center grayscale aspect-[3/2]">
             <img
               src={satelliteImg}
               alt={t("future.title")}
-              className="w-full max-w-md mx-auto"
+              className="w-full object-contain"
             />
           </div>
           <div>

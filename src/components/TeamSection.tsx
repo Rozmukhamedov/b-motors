@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import teamImg from "@/assets/team-together.png";
+import teamImg from "@/assets/team.png";
 
 const values = [
   { ru: "Уважение к потребителям", uz: "Iste'molchilarga hurmat" },
@@ -29,7 +29,7 @@ const TeamSection = () => {
             <img
               src={teamImg}
               alt={t("team.title")}
-              className="relative z-10 w-full max-w-md mx-auto lg:ml-16"
+              className="relative z-10 w-full object-contain"
             />
           </div>
 
