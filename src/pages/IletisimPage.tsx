@@ -226,6 +226,31 @@ const IletisimPage = () => {
         </div>
       </section>
 
+      {/* Offices Section */}
+      <section className="py-16 md:py-20 bg-muted/40">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-black text-foreground tracking-tight mb-3">
+            {t("iletisim.officesTitle")}
+          </h2>
+          <div className="w-16 h-1.5 bg-primary mb-10" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {(t("iletisim.offices", { returnObjects: true }) as { name: string; address: string }[]).map((office, i) => (
+              <div key={i} className="bg-background p-6 border-l-4 border-primary">
+                <div className="w-10 h-10 bg-primary flex items-center justify-center mb-4">
+                  <MapPin className="text-primary-foreground" size={20} />
+                </div>
+                <p className="font-bold text-foreground uppercase tracking-wide text-sm mb-2">
+                  {office.name}
+                </p>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {office.address}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Map Section */}
       <section className="relative">
         <div className="bg-section-dark py-6">

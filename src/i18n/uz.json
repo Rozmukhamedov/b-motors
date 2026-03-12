@@ -127,7 +127,14 @@
     "phoneLabel": "Telefon",
     "emailLabel": "Elektron pochta",
     "workHours": "Ish vaqti",
-    "workHoursValue": "Du–Ju: 09:00–18:00"
+    "workHoursValue": "Du–Ju: 09:00–18:00",
+    "officesTitle": "BIZNING OFIS VA SHOU-RUMLARIMIZ",
+    "offices": [
+      { "name": "Bosh ofis", "address": "O'zbekiston, Toshkent sh., Bobur ko'chasi 81/5" },
+      { "name": "Toshkent Shou-rumi", "address": "ARKBULOQ Agricultural Trade Centre" },
+      { "name": "Jizzax viloyati", "address": "Do'stlik tumani, 9A asosiy yo'l" },
+      { "name": "Samarqand viloyati", "address": "Bulung'ur tumani, M39 trassasi" }
+    ]
   },
   "partners": {
     "title": "BIZNING HAMKORLARIMIZ",

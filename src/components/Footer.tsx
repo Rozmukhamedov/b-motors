@@ -25,10 +25,15 @@ const Footer = () => {
             </h3>
             <div className="w-10 h-0.5 bg-primary mb-6" />
             <div className="space-y-4 text-section-dark-foreground/80 text-sm">
-              <div className="flex items-start gap-3">
-                <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
-                <p>{t("footer.address")}</p>
-              </div>
+              {(t("iletisim.offices", { returnObjects: true }) as { name: string; address: string }[]).map((office, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
+                  <div>
+                    <p className="font-semibold text-section-dark-foreground">{office.name}</p>
+                    <p>{office.address}</p>
+                  </div>
+                </div>
+              ))}
               <div className="flex items-center gap-3">
                 <Phone size={16} className="shrink-0 text-primary" />
                 <a href="tel:+998662330071" className="hover:text-primary transition-colors">
