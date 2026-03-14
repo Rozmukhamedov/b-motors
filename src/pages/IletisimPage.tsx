@@ -44,13 +44,13 @@ const IletisimPage = () => {
     {
       icon: Phone,
       label: t("iletisim.phoneLabel"),
-      value: "+998 66 233 00 71",
+      value: "+998 99 506 61 11",
       href: "tel:+998662330071",
     },
     {
       icon: Printer,
       label: "Fax",
-      value: "+998 66 233 00 72",
+      value: "+998 95 773 15 75",
       href: "tel:+998662330072",
     },
     {
@@ -259,7 +259,7 @@ const IletisimPage = () => {
               href="tel:+998662330071"
               className="text-4xl md:text-7xl font-black text-primary hover:text-primary/80 transition-colors tracking-tight"
             >
-              +998 66 233 00 71
+              +998 99 506 61 11
             </a>
           </div>
         </div>
@@ -268,7 +268,7 @@ const IletisimPage = () => {
           className="w-full h-[450px] border-0 grayscale hover:grayscale-0 transition-all duration-500"
           allowFullScreen
           loading="lazy"
-          title="Bulung'ur Motors"
+          title="Bulungur Motors"
         />
       </section>
     </PageLayout>

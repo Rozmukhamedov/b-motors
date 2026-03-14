@@ -44,12 +44,12 @@
     "desc": "Boy tarixiymizdan olgan kuch va kelajak qarashimiz bilan aqlli qishloq xo'jaligi mashinalarini ishlab chiqarish uchun hamkorligimizni kengaytirmoqdamiz. Barqaror dehqonchilik uchun qishloq xo'jaligi sun'iy intellekt texnologiyalarini joriy etmoqdamiz."
   },
   "footer": {
-    "factory": "«BULUNG'UR MOTORS» MChJ",
+    "factory": "«BULUNGUR MOTORS» MChJ",
     "address": "Jizzax viloyati, Do'stlik tumani",
     "quickLinks": "TEZKOR HAVOLALAR",
     "followUs": "BIZNI KUZATING",
     "followDesc": "Yangiliklar va mashinalarimiz haqida xabardor bo'lish uchun bizni kuzating.",
-    "rights": "© 2025 «BULUNG'UR MOTORS» MChJ | Barcha huquqlar himoyalangan."
+    "rights": "© 2025 «BULUNGUR MOTORS» MChJ | Barcha huquqlar himoyalangan."
   },
   "kurumsal": {
     "bannerLine1": "URUG' TUPROQQA TUSHIB",
@@ -133,7 +133,7 @@
       { "name": "Bosh ofis", "address": "O'zbekiston, Toshkent sh., Bobur ko'chasi 81/5" },
       { "name": "Toshkent Shou-rumi", "address": "ARKBULOQ Agricultural Trade Centre" },
       { "name": "Jizzax viloyati", "address": "Do'stlik tumani, 9A asosiy yo'l" },
-      { "name": "Samarqand viloyati", "address": "Bulung'ur tumani, M39 trassasi" }
+      { "name": "Samarqand viloyati", "address": "Bulungur tumani, M39 trassasi" }
     ]
   },
   "partners": {

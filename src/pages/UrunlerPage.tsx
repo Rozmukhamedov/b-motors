@@ -36,8 +36,8 @@ const UrunlerPage = () => {
           </h1>
           <p className="text-muted-foreground text-sm md:text-base max-w-2xl mx-auto text-section-dark-foreground/60">
             {isRu
-              ? "«Bulung'ur Motors» МЧЖ — техника, ожидаемая к продаже в 2026 году"
-              : "«Bulung'ur Motors» MChJ — 2026 yilda sotuvga qo'yilishi kutilayotgan texnikalar"}
+              ? "«Bulungur Motors» МЧЖ — техника, ожидаемая к продаже в 2026 году"
+              : "«Bulungur Motors» MChJ — 2026 yilda sotuvga qo'yilishi kutilayotgan texnikalar"}
           </p>
         </div>
       </section>

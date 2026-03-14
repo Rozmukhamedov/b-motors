@@ -15,7 +15,7 @@ const TopBar = () => {
         <div className="flex items-center gap-6">
           <a href="tel:+998662330071" className="flex items-center gap-2 hover:text-primary transition-colors">
             <Phone size={14} />
-            <span>+998 66 233 00 71</span>
+            <span>+998 99 506 61 11</span>
           </a>
           <a href="mailto:contact@bmotors-uz.com" className="hidden sm:flex items-center gap-2 hover:text-primary transition-colors">
             <Mail size={14} />

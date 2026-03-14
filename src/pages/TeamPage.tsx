@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
 import PageBanner from "@/components/PageBanner";
-import teamTogetherImg from "@/assets/team.jpg";
+import teamTogetherImg from "@/assets/team.png";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
 
 const management = [
@@ -228,8 +228,8 @@ const TeamPage = () => {
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 {isRu
-                  ? "Каждый сотрудник Bulung'ur Motors разделяет одну цель — сделать сельское хозяйство Узбекистана более эффективным и современным."
-                  : "Bulung'ur Motors-ning har bir xodimi bitta maqsadni baham ko'radi — O'zbekiston qishloq xo'jaligini yanada samarali va zamonaviy qilish."}
+                  ? "Каждый сотрудник Bulungur Motors разделяет одну цель — сделать сельское хозяйство Узбекистана более эффективным и современным."
+                  : "Bulungur Motors-ning har bir xodimi bitta maqsadni baham ko'radi — O'zbekiston qishloq xo'jaligini yanada samarali va zamonaviy qilish."}
               </p>
             </div>
             <div className="relative">
@@ -238,7 +238,6 @@ const TeamPage = () => {
                 alt={isRu ? "Наша команда" : "Bizning jamoa"}
                 className="w-full object-cover"
               />
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary" />
             </div>
           </div>
         </div>

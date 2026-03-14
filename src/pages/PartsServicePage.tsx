@@ -22,9 +22,9 @@ const PartsServicePage = () => {
       titleRu: "ГАРАНТИЙНОЕ ОБСЛУЖИВАНИЕ",
       titleUz: "KAFOLAT XIZMATI",
       descRu:
-        "Полное гарантийное обслуживание всей техники Bulung'ur Motors в течение 12 месяцев с момента покупки.",
+        "Полное гарантийное обслуживание всей техники Bulungur Motors в течение 12 месяцев с момента покупки.",
       descUz:
-        "Bulung'ur Motors texnikasining sotib olingan kundan boshlab 12 oy davomida to'liq kafolat xizmati.",
+        "Bulungur Motors texnikasining sotib olingan kundan boshlab 12 oy davomida to'liq kafolat xizmati.",
     },
     {
       icon: Wrench,
@@ -178,7 +178,7 @@ const PartsServicePage = () => {
               className="inline-flex items-center gap-3 bg-primary-foreground text-primary px-8 py-4 font-bold text-sm uppercase tracking-wider hover:bg-primary-foreground/90 transition-colors"
             >
               <Phone size={18} />
-              +998 66 233 00 71
+              +998 99 506 61 11
             </a>
             <Link
               to="/contact"
