@@ -20,7 +20,7 @@ import spreader800 from "@/assets/products/spreader-800.jpg";
 import cultivator from "@/assets/products/cultivator.jpg";
 import ovh600 from "@/assets/products/ovh-600.jpg";
 import grainSeeder24 from "@/assets/products/grain-seeder-24.jpg";
-import grainSeeder28 from "@/assets/products/grain-seeder-28.jpg";
+import grainSeeder28 from "@/assets/products/grain-seeder-28.png";
 import potatoPlanter from "@/assets/products/potato-planter.jpg";
 
 export type ProductSpec = { label: string; value: string };
@@ -404,11 +404,17 @@ export const products: Product[] = [
     image: ovh600,
     specs: [
       { label: "Объём бака", value: "600 л" },
-      { label: "Совместимые тракторы", value: "МТЗ-80х, Т-28х4М, ТТЗ-100 К11, ТТЗ 80.11" },
+      {
+        label: "Совместимые тракторы",
+        value: "МТЗ-80х, Т-28х4М, ТТЗ-100 К11, ТТЗ 80.11",
+      },
     ],
     specsUz: [
       { label: "Bak hajmi", value: "600 l" },
-      { label: "Mos traktorlar", value: "MTZ-80x, T-28x4M, TTZ-100 K11, TTZ 80.11" },
+      {
+        label: "Mos traktorlar",
+        value: "MTZ-80x, T-28x4M, TTZ-100 K11, TTZ 80.11",
+      },
     ],
   },
   {
@@ -476,7 +482,15 @@ export const categories = [
   { key: "mowers", ru: "Косилки", uz: "O'roq mashinalari" },
   { key: "seeders", ru: "Сеялки", uz: "Ekish mashinalari" },
   { key: "plows", ru: "Плуги и рыхлители", uz: "Pluglar va yumshatgichlar" },
-  { key: "laserLevelers", ru: "Лазерные планировщики", uz: "Lazerli tekislagichlar" },
-  { key: "sprayers", ru: "Опрыскиватели и разбрасыватели", uz: "Purkagichlar va sepgichlar" },
+  {
+    key: "laserLevelers",
+    ru: "Лазерные планировщики",
+    uz: "Lazerli tekislagichlar",
+  },
+  {
+    key: "sprayers",
+    ru: "Опрыскиватели и разбрасыватели",
+    uz: "Purkagichlar va sepgichlar",
+  },
   { key: "other", ru: "Прочее", uz: "Boshqalar" },
 ];
