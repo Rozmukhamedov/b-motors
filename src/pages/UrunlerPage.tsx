@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import { products, categories } from "@/data/products";
 
 type ProductSpec = { label: string; value: string };
@@ -28,6 +29,11 @@ const UrunlerPage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="Продукция"
+        description="Каталог сельскохозяйственной техники Bulungur Motors: дисковые бороны, сеялки, плуги и другое оборудование."
+        path="/products"
+      />
       {/* Hero header */}
       <section className="bg-section-dark py-12 md:py-20">
         <div className="container mx-auto px-4 text-center">

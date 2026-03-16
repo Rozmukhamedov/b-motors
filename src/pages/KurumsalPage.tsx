@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import PageBanner from "@/components/PageBanner";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
 import misyonImg from "@/assets/misyon.png";
@@ -18,6 +19,11 @@ const KurumsalPage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="О компании"
+        description="История, миссия и ценности компании Bulungur Motors — лидера сельскохозяйственного машиностроения Узбекистана."
+        path="/about"
+      />
       <PageBanner
         image={bannerImg}
         titleLine1={t("kurumsal.bannerLine1")}

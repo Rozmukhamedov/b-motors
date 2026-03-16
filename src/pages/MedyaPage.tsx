@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import PageBanner from "@/components/PageBanner";
 import { Download } from "lucide-react";
 import bannerImg from "@/assets/banner-medya.jpg";
@@ -19,6 +20,11 @@ const MedyaPage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="Медиа"
+        description="Новости, фото и видеоматериалы компании Bulungur Motors."
+        path="/media"
+      />
       <PageBanner
         image={bannerImg}
         titleLine1={t("medya.bannerLine1")}

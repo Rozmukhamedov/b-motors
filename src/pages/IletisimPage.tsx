@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import PageBanner from "@/components/PageBanner";
 import {
   Phone,
@@ -69,6 +70,11 @@ const IletisimPage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="Контакты"
+        description="Контакты Bulungur Motors. Шоурумы в Ташкенте, Самарканде и Джизаке. Позвоните или напишите нам."
+        path="/contact"
+      />
       <PageBanner
         image={bannerImg}
         titleLine1={t("iletisim.bannerTitle")}

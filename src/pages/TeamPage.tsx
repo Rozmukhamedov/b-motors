@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import PageBanner from "@/components/PageBanner";
 import teamTogetherImg from "@/assets/team.png";
 import bannerImg from "@/assets/banner-kurumsal.jpg";
@@ -202,6 +203,11 @@ const TeamPage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="Команда"
+        description="Познакомьтесь с командой профессионалов Bulungur Motors."
+        path="/team"
+      />
       <PageBanner
         image={bannerImg}
         titleLine1={isRu ? "НАША" : "BIZNING"}

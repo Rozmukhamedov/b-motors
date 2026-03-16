@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import PageLayout from "@/components/PageLayout";
+import SEOHead from "@/components/SEOHead";
 import PageBanner from "@/components/PageBanner";
 import { Link } from "react-router-dom";
 import {
@@ -73,6 +74,11 @@ const PartsServicePage = () => {
 
   return (
     <PageLayout>
+      <SEOHead
+        title="Запчасти и сервис"
+        description="Оригинальные запчасти и сервисное обслуживание сельхозтехники Bulungur Motors по всему Узбекистану."
+        path="/parts-service"
+      />
       <PageBanner
         image={bannerImg}
         titleLine1={isRu ? "ЗАПЧАСТИ" : "EHTIYOT QISMLAR"}

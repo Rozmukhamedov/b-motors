@@ -113,7 +113,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://t.me/Zaini1975"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Telegram"
                 className="w-10 h-10 border border-section-dark-foreground/30 flex items-center justify-center hover:border-primary hover:text-primary transition-colors"
               >

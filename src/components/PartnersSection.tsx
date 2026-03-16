@@ -11,11 +11,11 @@ import tym from "@/assets/partners/partner5.png";
 import zeppelin from "@/assets/partners/zeppelin.png";
 
 const partners = [
-  { img: partner2, name: "Partner 2", scale: 1.8 },
+  // { img: partner2, name: "Partner 2", scale: 1.8 },
   { img: masseyFerguson, name: "Massey Ferguson", scale: 1 },
-  { img: deutzFahr, name: "Deutz-Fahr", scale: 2.2 },
-  { img: belarus, name: "Belarus", scale: 2.2 },
-  { img: tym, name: "TYM Tractors", scale: 2.2 },
+  // { img: deutzFahr, name: "Deutz-Fahr", scale: 2.2 },
+  // { img: belarus, name: "Belarus", scale: 2.2 },
+  // { img: tym, name: "TYM Tractors", scale: 2.2 },
   { img: alpego, name: "Alpego", scale: 1 },
   { img: mascar, name: "Mascar", scale: 1 },
   { img: ebrar, name: "Ebrar", scale: 1 },
@@ -35,7 +35,7 @@ const PartnersSection = () => {
         <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-14">
           {t("partners.desc")}
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
           {partners.map((p, i) => (
             <div
               key={i}
