@@ -12,7 +12,7 @@ import plow4 from "@/assets/products/plow-4.jpg";
 import laser25 from "@/assets/products/laser-25.png";
 import laser30 from "@/assets/products/laser-30.png";
 import laser35 from "@/assets/products/laser-35.png";
-import laser40 from "@/assets/products/laser-40.png";
+import laser40 from "@/assets/products/laser-40.jpg";
 import laser45 from "@/assets/products/laser-45.jpg";
 import subsoiler from "@/assets/products/subsoiler.jpg";
 import sprayer600 from "@/assets/products/sprayer-600.jpg";
