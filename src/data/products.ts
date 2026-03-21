@@ -15,12 +15,12 @@ import laser35 from "@/assets/products/laser-35.png";
 import laser40 from "@/assets/products/laser-40.jpg";
 import laser45 from "@/assets/products/laser-45.jpg";
 import subsoiler from "@/assets/products/subsoiler.jpg";
-import sprayer600 from "@/assets/products/sprayer-600.jpg";
+import sprayer600 from "@/assets/products/sprayer-600.png";
 import spreader800 from "@/assets/products/spreader-800.jpg";
 import cultivator from "@/assets/products/cultivator.jpg";
 import ovh600 from "@/assets/products/ovh-600.jpg";
-import grainSeeder24 from "@/assets/products/grain-seeder-24.jpg";
-import grainSeeder28 from "@/assets/products/grain-seeder-28.png";
+import grainSeeder24 from "@/assets/products/grain-seeder-24.png";
+import grainSeeder28 from "@/assets/products/grain-seeder-28.jpg";
 import potatoPlanter from "@/assets/products/potato-planter.jpg";
 
 export type ProductSpec = { label: string; value: string };
